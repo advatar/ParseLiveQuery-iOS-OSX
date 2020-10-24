@@ -19,6 +19,6 @@ let package = Package(
     targets: [
         .target(
             name: "ParseLiveQuery",
-            dependencies: ["Parse","BoltsSwift","Starscream"]),
+            dependencies: ["ParseSwift","BoltsSwift","Starscream"]),
     ]
 )
