@@ -3,11 +3,11 @@
 import PackageDescription
 
 let package = Package(
-    name: "ParseLiveQuery-iOS-OSX",
+    name: "ParseLiveQuery",
     platforms: [.iOS(.v11), .macOS(.v10_13), .tvOS(.v11), .watchOS(.v4)],
     products: [
         .library(
-            name: "ParseLiveQuery-iOS-OSX",
+            name: "ParseLiveQuery",
             targets: ["ParseLiveQuery-iOS", "ParseLiveQuery-OSX"])
     ],
     dependencies: [
@@ -19,6 +19,6 @@ let package = Package(
     targets: [
         .target(
             name: "ParseLiveQuery",
-            dependencies: ["Parse","Bolts","Starscream"]),
+            dependencies: ["Parse","BoltsSwift","Starscream"]),
     ]
 )
