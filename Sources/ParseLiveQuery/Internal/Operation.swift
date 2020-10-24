@@ -8,7 +8,7 @@
  */
 
 import Foundation
-import Parse
+import ParseSwift
 
 enum ClientOperation {
     case connect(applicationId: String, sessionToken: String, clientKey: String?)

@@ -8,7 +8,7 @@
  */
 
 import Foundation
-import Parse
+import ParseSwift
 import Starscream
 import BoltsSwift
 
