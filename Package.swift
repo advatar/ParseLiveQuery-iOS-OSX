@@ -8,7 +8,7 @@ let package = Package(
     products: [
         .library(
             name: "ParseLiveQuery",
-            targets: ["ParseLiveQuery-iOS", "ParseLiveQuery-OSX"])
+            targets: ["ParseLiveQuery"])
     ],
     dependencies: [
         // Dependencies declare other packages that this package depends on.
